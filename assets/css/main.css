@@ -1,0 +1,17 @@
+// 2. Variable
+$mainBlue: #2f5572;
+
+// 1. Plain css with autoprefixer
+body {
+  color: $mainBlue;
+  padding: 25px;
+  margin: 25px;
+  columns: 300px 2;
+}
+
+// 3. Nested
+section {
+  a {
+    margin: 15px;
+  }
+}
