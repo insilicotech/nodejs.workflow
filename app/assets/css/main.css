@@ -1,0 +1,25 @@
+/*
+@import "normalize.css";
+*/
+@import "base/_global";
+@import "modules/_large-hero";
+
+/*
+$blue: #2f5572;
+
+// 1. Plain css with autoprefixer
+body {
+  color: $blue;
+  columns: 300px 2;
+  margin: 25px;
+  padding: 25px;
+}
+
+// 3. Nested
+.box {
+  a {
+    display: block;
+    padding: 15px;
+  }
+}
+*/

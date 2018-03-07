@@ -1,0 +1,43 @@
+/*
+@import "normalize.css";
+*/
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+img {
+  max-width: 95%;
+  height: auto;
+}
+.large-hero {
+  position: relative;
+
+}
+.large-hero__text-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+/*
+$blue: #2f5572;
+
+// 1. Plain css with autoprefixer
+body {
+  color: $blue;
+  columns: 300px 2;
+  margin: 25px;
+  padding: 25px;
+}
+
+// 3. Nested
+.box {
+  a {
+    display: block;
+    padding: 15px;
+  }
+}
+*/
